@@ -15,3 +15,11 @@ namespace A{
     }
 };
 }
+
+#include "mynamespace.cpp"
+using namespace A;
+
+ int main(){
+    Employee E(12, "Kush");
+    E.display();
+ }
